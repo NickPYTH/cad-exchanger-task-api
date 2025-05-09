@@ -5,7 +5,7 @@ from rest_framework.response import Response
 
 @api_view(['GET'])
 def generate_simple_response(request):
-    name = request.GET.get('id')
+    name = request.GET.get('name')
     email = request.GET.get('email')
     message = request.GET.get('message')
 
