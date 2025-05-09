@@ -54,7 +54,7 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
-    'http://83.222.9.213:7999'
+    'http://83.222.9.213:7988'
 ]
 
 ROOT_URLCONF = "cadexchangertaskapi.urls"
